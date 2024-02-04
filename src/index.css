@@ -1,0 +1,18 @@
+.nav-link {
+  font-weight: lighter;
+  font-size: large;
+  color: lightgray;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.group-button {
+  font-size: smaller;
+}
+
+.sidebar {
+  background-color: #e8e5e6;
+}

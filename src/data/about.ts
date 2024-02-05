@@ -52,7 +52,7 @@ export const aboutDetails: AboutInterface[] =
     },
     {
         id: 3,
-        heading: 'Headiing 4',
+        heading: 'Heading 4',
         imageURL: faEnvelope,
         paragraphs: [`Lorem ipsum dolor sit amet, iriure fabellas expetendis sed ad, in modo summo mazim eos, est 
         sonet detraxit mediocritatem te. Ius tantas admodum tincidunt ut, te pro melius maluisset tincidunt. 

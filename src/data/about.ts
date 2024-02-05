@@ -3,11 +3,19 @@ import { faPersonChalkboard, faPenToSquare, faLaptopCode } from "@fortawesome/fr
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 /* @Todo: Update the about content.
-   - Import different fontawesome icons by replacing the name of the icons in the import statements. You will
-     need to ensure you are importing from the appropriate library (ex. solid or regular).
-   - Add paragraphs by copying the section between two curly braces, adding the section to the bottom of the list before
-     the closing square curly brace, and updating the id.
-   - Remove paragraphs by deleting all content within and including the curly braces.
+   - Add fontawesome icons by adding the name to the relevant import statement (solid or regular).
+   - Remove sections by deleting content within (and including) the curly braces.
+   - Add a section by copying and pasting the template into the specified section below. Update the id.
+   ---------- Template Start -----------
+   {
+        id: #, // update the id
+        heading: 'Heading',
+        imageURL: faPersonChalkboard,
+        paragraphs: [`Lorem ipsum dolor sit amet, iriure fabellas expetendis sed ad, in modo summo mazim eos, est
+        sonet detraxit mediocritatem te. Ius tantas admodum tincidunt ut, te pro melius maluisset tincidunt.
+        Ut veri melius oporteat sed. Legere persius mentitum eu sed, est at veniam molestiae.`],
+    },
+    ---------- Template End -----------
 */
 
 export const aboutDetails: AboutInterface[] =
@@ -49,5 +57,6 @@ export const aboutDetails: AboutInterface[] =
         paragraphs: [`Lorem ipsum dolor sit amet, iriure fabellas expetendis sed ad, in modo summo mazim eos, est 
         sonet detraxit mediocritatem te. Ius tantas admodum tincidunt ut, te pro melius maluisset tincidunt. 
         Ut veri melius oporteat sed.`],
-    }
+    },
+//  Add new section(s) here.
 ]

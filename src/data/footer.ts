@@ -1,9 +1,10 @@
 import {FooterInterface} from "../models/footerInterface";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
+// import solid icons using import { iconName } from "@fortawesome/free-solid-svg-icons";
 
-/* @Todo: Update the footer content.
-   - Import a different fontawesome icon by replacing faStar. You may need to update the "from" location if you
-     select a different style (ex. solid) icon.
+/* @Todo: Update the footer.
+   - Add the name of the desired icon to the relevant import (regular or solid) above.
+   - Update the icon name below.
 */
 
 export const footerData: FooterInterface = {

@@ -1,7 +1,7 @@
 import {HomepageInterface} from "../models/homepageInterface";
 
-/* @Todo Update the information on the top of the homepage.
-   - Link to different sections of your site by updating the URL to a different page.
+/* @Todo Update the homepage information.
+   - You can link to different sections by updating the button information.
 *  */
 export const homepageData: HomepageInterface = {
     heading: "Main Title",

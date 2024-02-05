@@ -1,6 +1,6 @@
 /* @Todo Update the Header
-   - If you change the urls, you will need to edit routes in the app in src/app.tsx
-*  */
+   - If you change the urls, you will need to update the routes in the app in src/app.tsx
+*/
 export const headerData = {
     name: "Your Name",
     heading1: {

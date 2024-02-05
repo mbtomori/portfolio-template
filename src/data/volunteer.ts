@@ -1,12 +1,9 @@
 import { VolunteerInterface } from "../models/volunteerInterface";
 /*@Todo Update your volunteer experience on your resume.
-   - Remove this section by deleting it on pages/resume.tsx
-   - Rename this section (to awards, clubs, etc.) in pages/resume/volunteering/volunteering.tsx/
-   - Add items by copying the content between curly braces and adding it at the bottom before the square brace.
-     Update the id.
-   - Remove items by deleting a section between (and including) the curly braces.
-   - This page is designed for three items/experiences.
-      - You may need to make updates to the styling to add or remove items.
+   - Remove this section entirely by deleting it on pages/resume.tsx
+   - Use this section to share awards, clubs, etc. by updating the heading in pages/resume/volunteering/volunteering.tsx
+   - This page is designed for three items/experiences. You may need to update the styling if you change the number
+     of items on the page.
 */
 export const volunteerInfo: VolunteerInterface[] =
 [

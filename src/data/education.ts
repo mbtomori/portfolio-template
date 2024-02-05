@@ -1,12 +1,21 @@
-import {EducationInterface} from "../models/educationInterface";
+import { EducationInterface } from "../models/educationInterface";
 
 /* @Todo Add your Education and Certifications to the relevant sections below.
-- To remove sections, delete everything between the starting and ending curly braces (include the curly braces).
-- To add education/certificates, copy the snippet below, put it in the proper place, and update the information.
-*/
+   - Remove sections by deleting content within (and including) the curly braces.
+   - Add a section by copying and pasting the template into the specified section below. Update the id.
+   ---------- Template Start -----------
+   {
+        id: 0, // update the id
+        name: 'Degree',
+        institution: "Institution Name",
+        url: "Add the URL to your program here",
+        date: "MM YYYY"
+    },
+    ---------- Template End -----------*/
 
 export const degrees: EducationInterface[] =
-    [{
+[
+    {
         id: 0,
         name: 'Degree',
         institution: "Institution Name",
@@ -26,7 +35,8 @@ export const degrees: EducationInterface[] =
         institution: "Institution Name",
         url: "Add the URL to your program here",
         date: "MM YYYY"
-    }
+    },
+    // Add another education experience here
 ]
 
 export const certifications: EducationInterface[] =
@@ -50,5 +60,6 @@ export const certifications: EducationInterface[] =
         institution: "Institution Name",
         url: "Add URL to the credential program",
         date: "YYYY"
-    }
+    },
+    // Add another certificate experience here
 ]

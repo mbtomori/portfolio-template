@@ -1,15 +1,15 @@
 import { CardInterface } from "../models/cardInterface";
 import { faPersonChalkboard, faPenToSquare, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+// import regular icons using import { iconName } from "@fortawesome/free-regular-svg-icons";
 
-/* @Todo Update the card information on the homepage.
-    - To update the icons, find free icons on Fontawesome, and add the names to the import statement above.
-      Use the names in the iconName section. These are from the solid library.
-      - Update solid to regular if you use a regular icon.
-    - Add images of your work to the public/images folder and link to them in the imageURL section.
+/* @Todo Update the cards on the homepage.
+    - Import different icons on Fontawesome, and add the relevant import (solid or regular) above.
+    - Upload images of your work in the public/images folder. Update the imageURL.
+    - The design fits three cards.
 */
 
 export const cards: CardInterface[] =
-    [
+[
     {
         id: '0',
         imageURL: '/images/example_img.png',

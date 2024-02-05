@@ -1,14 +1,17 @@
 import { LanguageInterface } from "../models/languageInterface";
 
 /* @Todo Add languages (designed for programming languages) to your resume.
-    - This defaults to 8 languages. Add languages by combining similar languages (HTML/CSS) or by adding a section
-      between curly braces. Be sure to check that the title fits with the percentage.
-    - To remove sections, delete sections between two curly braces (from the end) and update the percentages.
+    - This design supports 8 languages. Languages should be ordered from best to least known.
+    - Update the displayPercent to approximate how well you know that language.
+    - If you need more than eight languages, combine similar languages (HTML/CSS).
+    - Ensure the title fits with the percentage.
+    - To remove sections, delete the full language section including the curly brace.
     - Display percentages must add up to 100.
-    - Suggestion: order from best to least known.
+    - To remove this from the resume, delete the component from pages/resume/skills/skills.tsx
 */
 export const languages: LanguageInterface[] =
-    [{
+[
+    {
         id: 0,
         name: 'C/C++',
         displayPercent: 27,

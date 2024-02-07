@@ -74,11 +74,35 @@ npm i --save @fortawesome/react-fontawesome@latest
 ### View the site locally
 - In the project directory, run `npm start`.
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Changes made to the repository will update automatically.
 
+## Customize your site
 
-## Add Content
+### Update the name and image displayed in the browser.
+![](public/images/tab.png)
 
+#### Update the title text
 
+In `public/index.html`, find the `<title>` tags and update the text.
+```html
+    <title>Portfolio (put desired title here)</title>
+```
+
+#### Update your site logo
+Replace `favicon.ico` with your desired logo in a .ico format.
+
+### Add images
+All images should be stored in `public/images/`. 
+Company logos can be separated into the `public/images/logos` directory.
+
+### Update the theme
+This site uses Bootswatch's Minty theme. Change the theme by replacing `minty` with your desired theme name.
+[theme](https://bootswatch.com).
+
+In `index.tsx` change "minty" to your desired theme.
+```typescript jsx
+import 'bootswatch/dist/minty/bootstrap.min.css';
+```
 
 
 

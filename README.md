@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Build a Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Build your own resume and work sample portfolio using this project template. With this template, simply edit 
+placeholder text, add relevant images, and deploy. You'll be able to share a new portfolio site in a few short hours.
+The site was designed using Safari and is responsive. It was designed for a large web screen.
 
-## Available Scripts
+![](public/images/template-img.png)
 
-In the project directory, you can run:
+## Prerequisites
+This project is built using:
+- [TypeScript](https://www.typescriptlang.org)
+- [React.js](https://react.dev)
+- [Bootstrap](https://getbootstrap.com)
+- [Bootswatch](https://bootswatch.com)
+- [React-Boostrap](https://react-bootstrap.netlify.app)
+- [React-Router](https://reactrouter.com/en/main)
 
-### `npm start`
+You do not need formal knowledge of these technologies, but it would be helpful to understand
+TypeScript strings, arrays, and objects, as you will be editing TypeScript objects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The instructions assume some familiarity with software engineering, the command line, git, and repositories. 
+If you are unfamiliar with these concepts, it should be possible to create and deploy the site, but it 
+will be more challenging and take longer.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If you find a bug or have issues with setup, submit an issue on the repository. You can also submit pull requests with
+bug fixes and features.
 
-### `npm test`
+## Objectives
+Use this project to:
+- Create your own portfolio to share with potential employers. This includes About, Resume, Samples, and Contact pages.
+- Deploy and host your site on Netlify (or other hosting site of your choice).
+- Optional: Use a custom domain.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estimated Time: 
+Setting up and customizing your site will take approximately 1-2 hours if your content is ready to publish. 
+If you are using a custom domain, it may take 24 hours to fully propagate across the internet.
 
-### `npm run build`
+## Project Set Up
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Download the project
+- [Download and install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install Required Packages
+Navigate to the repository in your command line.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Install Bootstrap
+```
+npm i bootstrap node-sass --exac
+```
+#### Install React-Bootstrap
+```
+npm install react-bootstrap
+```
+#### Install Bootswatch
 
-### `npm run eject`
+```
+npm install bootswatch
+```
+#### Install React-Router
+```
+npm i react-router
+npm i react-router-dom
+```
+#### Install Fontawesome
+```
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+```
+### View the site locally
+- In the project directory, run `npm start`.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Add Content
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ## Deploy
+- Run `npm run build` when you are ready to deploy.
+

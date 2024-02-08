@@ -1,9 +1,13 @@
 # Build a Portfolio Website
 
 ## Overview
-Build your own resume and work sample portfolio using this project template. With this template, simply edit 
-placeholder text, add relevant images, and deploy. You'll be able to share a new portfolio site in a few short hours.
-The site was designed using Safari and is responsive. It was designed for a large web screen.
+Build your own resume and work sample portfolio using this project template. 
+
+With this template, simply edit 
+placeholder text, add relevant images, and deploy. You'll be able to share a new portfolio site in a few hours.
+The site is designed to be responsive, but is best viewed on a large screen. It was tested on Safari.
+
+View the deployed template site at https://your-portfolio-template.netlify.app. 
 
 ![](public/images/template-img.png)
 
@@ -89,11 +93,25 @@ In `public/index.html`, find the `<title>` tags and update the text.
 ```
 
 #### Update your site logo
-Replace `favicon.ico` with your desired logo in a .ico format.
+Consider using a tool like [favicon.io](https://favicon.io) to create or generate your icon.
+Replace the following files in the `public/` directory with your versions of the same image.
+- public/favicon.ico 
+- public/logo192.png (192 x 192 pixels)
+- public/logo512.png (512 x 512 pixels)
 
-### Add images
-All images should be stored in `public/images/`. 
-Company logos can be separated into the `public/images/logos` directory.
+### Add content
+#### Content changes
+- The `src/data/` directory contains a subdirectory for each page. Component data is stored in each file.
+- Each page has instructions for how to update, add, and remove content as well as design considerations.
+- Data is usually stored in a TypeScript object or in an array of TypeScript objects. Replace the template data
+with your own content in each file. 
+- Images should be added to the `public/images/` directory. Update the file paths (stored as strings) to the relevant object.
+- Company logos can be separated into the `public/images/logos` directory.
+- Icons can be found on [Fontawesome](https://fontawesome.com/search).
+
+#### More advanced changes
+To change an object's properties, edit the corresponding model in the `src/models/` directory.
+To remove a component from a page, remove it from relevant page or component in `src/pages/`.
 
 ### Update the theme
 This site uses Bootswatch's Minty theme. Change the theme by replacing `minty` with your desired theme name.
@@ -104,8 +122,28 @@ In `index.tsx` change "minty" to your desired theme.
 import 'bootswatch/dist/minty/bootstrap.min.css';
 ```
 
+### Commit Changes
+Add, commit, and push your changes to GitHub.
+
+## Deploy
+This guide uses Netlify and GitHub to deploy, but you can use any hosting platform you choose. 
+
+- Login or create an account on [Netlify](https://www.netlify.com)
+- Click on "Add new site" -> Import an existing project. 
+- Select "Deploy with GitHub" and select your repository. You may need to Configure Netlify on GitHub find and select it.
+- If you do not own a domain, select a site name to make it easier to find. Ex. your-name-portfolio. It will need to be unique.
+- Select `main` under branch to deploy if not already selected.
+- Click `Deploy`. If continuous deployment is set up, each push to the main branch should automatically deploy if there are no build errors.
+- View your site at the URL you selected. It may take a few minutes.
+
+#### Advanced Deployment
+If you want to deploy to a custom domain, it's easiest if you buy the domain from the hosting site if offered.
+If you already own a domain, search for instructions on connecting Netlify (or your hosting platform) and 
+the domain site. (Namecheap, Go Daddy, etc.)
+
+## Issues and Contributions
+If you experienced any issues with this guide or the template, create an issue on this repository. 
+Pull requests with bug fixes are also appreciated. 
 
 
-- ## Deploy
-- Run `npm run build` when you are ready to deploy.
 

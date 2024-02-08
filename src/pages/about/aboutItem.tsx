@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
-import { AboutInterface } from "../../models/aboutInterface";
+import { AboutInterface } from "../../models/about/aboutInterface";
 import {LeftRow} from "./leftRow";
 import {RightRow} from "./rightRow";
 

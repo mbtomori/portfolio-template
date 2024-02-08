@@ -1,4 +1,4 @@
-import { EducationInterface } from "../models/educationInterface";
+import { EducationInterface } from "../../models/resume/educationInterface";
 
 /* @Todo Add your Education and Certifications to the relevant sections below.
    - Remove sections by deleting content within (and including) the curly braces.

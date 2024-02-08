@@ -1,6 +1,6 @@
 import React from 'react';
 import { ListGroup } from "react-bootstrap";
-import { EducationInterface } from "../../../models/educationInterface";
+import { EducationInterface } from "../../../models/resume/educationInterface";
 import { EducationRow } from "./educationRow";
 
 interface EducationTableProps {

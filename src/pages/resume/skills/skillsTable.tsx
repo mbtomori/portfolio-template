@@ -1,6 +1,6 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
-import { SkillInterface } from "../../../models/skillInterface";
+import { SkillInterface } from "../../../models/resume/skillInterface";
 import { SkillRow } from "./skillRow";
 
 interface SkillsTableProps {

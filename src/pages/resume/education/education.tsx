@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
-import { degrees, certifications } from "../../../data/education";
+import { degrees, certifications } from "../../../data/resume/education";
 import { EducationTable } from "./educationTable";
 
 export const Education = () => {

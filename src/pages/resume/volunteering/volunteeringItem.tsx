@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from "react-bootstrap";
-import { VolunteerInterface } from "../../../models/volunteerInterface";
+import { VolunteerInterface } from "../../../models/resume/volunteerInterface";
 
 interface VolunteeringItemProps {
     volunteering: VolunteerInterface;

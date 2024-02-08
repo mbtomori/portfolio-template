@@ -1,4 +1,4 @@
-import { CardInterface } from "../models/cardInterface";
+import { CardInterface } from "../../models/homepage/cardInterface";
 import { faPersonChalkboard, faPenToSquare, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 // import regular icons using import { iconName } from "@fortawesome/free-regular-svg-icons";
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SkillInterface } from "../../../models/skillInterface";
+import { SkillInterface } from "../../../models/resume/skillInterface";
 
 interface SkillItemProps {
     skill: SkillInterface;

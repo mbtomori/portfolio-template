@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Figure, Card, FigureCaption } from "react-bootstrap";
 import { Link } from "react-router-dom"
-import { CardInterface } from "../../models/cardInterface";
+import { CardInterface } from "../../models/homepage/cardInterface";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 

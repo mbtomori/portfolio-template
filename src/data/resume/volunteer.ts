@@ -1,4 +1,4 @@
-import { VolunteerInterface } from "../models/volunteerInterface";
+import { VolunteerInterface } from "../../models/resume/volunteerInterface";
 /*@Todo Update your volunteer experience on your resume.
    - Remove this section entirely by deleting it on pages/resume.tsx
    - Use this section to share awards, clubs, etc. by updating the heading in pages/resume/volunteering/volunteering.tsx

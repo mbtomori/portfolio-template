@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Row, Col, ListGroup, ListGroupItem, Image } from "react-bootstrap";
-import { ExperienceInterface } from "../../../models/experienceInterface";
+import { ExperienceInterface } from "../../../models/resume/experienceInterface";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAws } from '@fortawesome/free-brands-svg-icons'
 

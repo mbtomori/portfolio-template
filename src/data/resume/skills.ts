@@ -1,4 +1,4 @@
-import { SkillInterface } from "../models/skillInterface";
+import { SkillInterface } from "../../models/resume/skillInterface";
 
 /* @Todo Add general and technical skills to the relevant sections below.
    - Remove skill categories by deleting content within (and including) the curly braces.

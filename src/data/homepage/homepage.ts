@@ -1,4 +1,4 @@
-import {HomepageInterface} from "../models/homepageInterface";
+import {HomepageInterface} from "../../models/homepage/homepageInterface";
 
 /* @Todo Update the homepage information.
    - You can link to different sections by updating the button information.

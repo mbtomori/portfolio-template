@@ -1,4 +1,4 @@
-import { ContactInterface } from "../models/contactInterface";
+import { ContactInterface } from "../../models/contact/contactInterface";
 
 /* @Todo: Update your contact information for the contact page.
    - Add your profile image to the public/images directory. Update the imageURL.

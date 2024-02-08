@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProgressBar } from "react-bootstrap";
-import { languages } from "../../../data/languages";
+import { languages } from "../../../data/resume/languages";
 
 export const LanguageProgressComponent = () => {
 

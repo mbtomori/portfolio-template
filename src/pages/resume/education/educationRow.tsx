@@ -1,6 +1,6 @@
 import React from 'react';
 import { ListGroup, Badge, Row, Col } from "react-bootstrap";
-import { EducationInterface } from "../../../models/educationInterface";
+import { EducationInterface } from "../../../models/resume/educationInterface";
 
 interface EducationItemProps {
     education: EducationInterface;

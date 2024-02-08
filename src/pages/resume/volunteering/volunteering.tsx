@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row } from "react-bootstrap";
-import { volunteerInfo } from "../../../data/volunteer";
+import { volunteerInfo } from "../../../data/resume/volunteer";
 import { VolunteeringItem } from "./volunteeringItem";
 
 

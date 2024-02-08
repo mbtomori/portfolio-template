@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import { WritingSampleCard } from "./writingSampleCard";
-import { writingSamples } from "../../data/writingSamples";
+import { samples } from "../../data/samples/samples";
 
 export const Samples = () => {
 
@@ -10,7 +10,7 @@ export const Samples = () => {
       <Container className="text-center py-5 bg-white">
           <Row><h1>Writing Samples</h1></Row>
           <Row>
-              {writingSamples.map((sample) => (
+              {samples.map((sample) => (
           <WritingSampleCard key={sample.id} sample={sample} />
         ))}
           </Row>

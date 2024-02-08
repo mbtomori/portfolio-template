@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Card, ButtonGroup, Col, Button } from "react-bootstrap";
-import { SampleInterface } from "../../models/sampleInterface";
+import { SampleInterface } from "../../models/samples/sampleInterface";
 
 interface SampleItemProps {
     sample: SampleInterface;

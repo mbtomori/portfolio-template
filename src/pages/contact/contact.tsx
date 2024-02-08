@@ -3,7 +3,7 @@ import { Card, ListGroup, ListGroupItem, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { contactData } from "../../data/contact";
+import { contactData } from "../../data/contact/contact";
 
 export const Contact = () => {
 

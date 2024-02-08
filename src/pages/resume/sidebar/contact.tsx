@@ -3,8 +3,8 @@ import { Row, Col, Card } from "react-bootstrap";
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { contactData } from "../../../data/contact";
-import { homepageData } from "../../../data/homepage";
+import { contactData } from "../../../data/contact/contact";
+import { homepageData } from "../../../data/homepage/homepage";
 
 export const SidebarContact = () => {
 

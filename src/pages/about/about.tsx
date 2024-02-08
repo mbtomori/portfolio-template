@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from "react-bootstrap";
-import { aboutDetails } from "../../data/about";
+import { aboutDetails } from "../../data/about/about";
 import { AboutItem } from "./aboutItem";
 
 export const About = () => {

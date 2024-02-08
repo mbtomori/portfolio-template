@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row } from "react-bootstrap"
-import { cards } from "../../data/homepageCards";
+import { cards } from "../../data/homepage/homepageCards";
 import { CardComponent } from "./card";
 
 export const CardContainer = () => {

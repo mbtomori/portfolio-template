@@ -1,4 +1,4 @@
-import { LanguageInterface } from "../models/languageInterface";
+import { LanguageInterface } from "../../models/resume/languageInterface";
 
 /* @Todo Add languages (designed for programming languages) to your resume.
     - This design supports 8 languages. Languages should be ordered from best to least known.

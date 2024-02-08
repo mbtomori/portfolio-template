@@ -1,5 +1,5 @@
 import React from 'react';
-import { generalSkills, technicalSkills } from "../../../data/skills";
+import { generalSkills, technicalSkills } from "../../../data/resume/skills";
 import { LanguageProgressComponent } from "./languageProgressComponent";
 import { SkillsTable } from "./skillsTable";
 

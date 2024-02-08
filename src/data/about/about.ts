@@ -1,4 +1,4 @@
-import { AboutInterface } from "../models/aboutInterface";
+import { AboutInterface } from "../../models/about/aboutInterface";
 import { faPersonChalkboard, faPenToSquare, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 

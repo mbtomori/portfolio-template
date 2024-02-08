@@ -1,4 +1,4 @@
-import { ExperienceInterface } from "../models/experienceInterface";
+import { ExperienceInterface } from "../../models/resume/experienceInterface";
 
 /* @Todo Add your work experience below.
    - Add your company logo to the public/images/logos folder and link to them in the imageURL.

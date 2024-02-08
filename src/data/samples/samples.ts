@@ -1,4 +1,4 @@
-import { SampleInterface } from "../models/sampleInterface";
+import { SampleInterface } from "../../models/samples/sampleInterface";
 
 /* @Todo Add your writing/work sample information below.
     - Remove samples by deleting content within (and including) the curly braces.
@@ -34,7 +34,7 @@ import { SampleInterface } from "../models/sampleInterface";
     },
     ---------- Template End -----------
 * */
-export const writingSamples: SampleInterface[] =
+export const samples: SampleInterface[] =
 [
     {
         id: 0,
